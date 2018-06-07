@@ -1,0 +1,43 @@
+{
+  "name": "postcss-csslock",
+  "version": "1.0.0",
+  "description": "PostCSS plugin CSS-gateway is a special kind of calculation of CSS-value, in which: there is a minimum and maximum value, there are two breakpoints (usually depending on the width of the viewport), between these points the value varies linearly from the minimum to the maximum.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "CSS-lock",
+    "adaptive",
+    "resposive"
+  ],
+  "author": "pepelxD <rfwp10@mail.ru>",
+  "license": "MIT",
+  "repository": "pepelxD/postcss-csslock",
+  "bugs": {
+    "url": "https://github.com/pepelxD/postcss-csslock/issues"
+  },
+  "homepage": "https://github.com/pepelxD/postcss-csslock",
+  "dependencies": {
+    "deepmerge": "^2.1.0",
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2",
+    "postcss-cli": "^5.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint ./test/test.js",
+    "start": "postcss test/input.css  -o test/output.css"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

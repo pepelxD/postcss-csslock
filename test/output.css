@@ -1,0 +1,36 @@
+.html {
+    font-size: 20px;
+    line-height: 115%;
+    margin-left: 30px;
+}
+@media (min-width: 320px) {
+    .html {
+        font-size: calc(3.125vw + 10px);
+    }
+}
+@media (min-width: 960px) {
+    .html {
+        font-size: 40px;
+    }
+}
+@media (min-width: 320px) {
+    .html {
+        line-height: calc(115% + 0.7813vw - 2.5px );
+    }
+}
+@media (min-width: 960px) {
+    .html {
+        line-height: calc(115% + 5px );
+    }
+}
+@media (min-width: 320px) {
+    .html {
+        margin-left: calc(3.125vw + 20px);
+    }
+}
+@media (min-width: 960px) {
+    .html {
+        margin-left: 50px;
+    }
+}
+
