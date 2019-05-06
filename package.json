@@ -25,7 +25,8 @@
     "eslint": "^4.18.2",
     "eslint-config-postcss": "^2.0.2",
     "jest": "^22.4.2",
-    "postcss-cli": "^5.0.0"
+    "postcss-cli": "^5.0.0",
+    "postcss-sprites": "^4.2.1"
   },
   "scripts": {
     "test": "jest && eslint ./test/test.js",

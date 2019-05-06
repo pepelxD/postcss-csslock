@@ -3,4 +3,6 @@
     lock: line-height 23 28 320 960;
     lock: margin-left 30 50 320 960;
 }
+.comment { background-image: url(./img/sprite/coc-2.png) }
+.bubble { background-image: url(./img/sprite/coc-3.png) }
 

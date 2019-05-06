@@ -1,5 +1,5 @@
 module.exports = {
     plugins: [
-        require('./index.js')({mobileFirst: true})
+        require('./index.js')({mobileFirst: true}),
     ]
 };
